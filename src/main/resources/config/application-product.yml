@@ -1,0 +1,17 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /api
+
+logging:
+  level:
+    root: warn
+    com.lrm: debug
+  file: logs/my.log
+
+#declare a variable
+#book:
+#  name: Intro to java by ${book.author}
+#  author: Yubo
+#  isbn: ${random.uuid}
+#  description: This is a great book.

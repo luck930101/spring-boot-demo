@@ -1,0 +1,224 @@
+2019-02-03 14:38:29.490  INFO 14983 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekimbp.lan with PID 14983 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
+2019-02-03 14:38:29.496  INFO 14983 --- [main] c.y.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-02-03 14:38:30.774  INFO 14983 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-02-03 14:38:30.797  INFO 14983 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-03 14:38:30.798  INFO 14983 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-03 14:38:30.805  INFO 14983 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-03 14:38:30.888  INFO 14983 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-02-03 14:38:30.888  INFO 14983 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1272 ms
+2019-02-03 14:38:31.157  INFO 14983 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-03 14:38:31.368  INFO 14983 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-02-03 14:38:31.372  INFO 14983 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.404 seconds (JVM running for 3.03)
+2019-02-03 14:38:40.933  INFO 14983 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-03 14:39:01.849  INFO 14986 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekimbp.lan with PID 14986 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
+2019-02-03 14:39:01.852  INFO 14986 --- [main] c.y.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-02-03 14:39:03.248  INFO 14986 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2019-02-03 14:39:03.270  INFO 14986 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-03 14:39:03.270  INFO 14986 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-03 14:39:03.277  INFO 14986 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-03 14:39:03.337  INFO 14986 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-02-03 14:39:03.338  INFO 14986 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1443 ms
+2019-02-03 14:39:03.615  INFO 14986 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-03 14:39:03.886  INFO 14986 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api'
+2019-02-03 14:39:03.891  INFO 14986 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.525 seconds (JVM running for 3.155)
+2019-02-03 14:39:12.604  INFO 14986 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-03 14:39:12.605  INFO 14986 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-03 14:39:12.612  INFO 14986 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-02-03 14:39:19.391  INFO 14986 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-03 14:39:22.152  INFO 14989 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekimbp.lan with PID 14989 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
+2019-02-03 14:39:22.160  INFO 14989 --- [main] c.y.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-02-03 14:39:23.346  INFO 14989 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-02-03 14:39:23.383  INFO 14989 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-03 14:39:23.385  INFO 14989 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-03 14:39:23.397  INFO 14989 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-03 14:39:23.474  INFO 14989 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-02-03 14:39:23.475  INFO 14989 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1259 ms
+2019-02-03 14:39:23.708  INFO 14989 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-03 14:39:23.973  INFO 14989 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-02-03 14:39:23.978  INFO 14989 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.271 seconds (JVM running for 2.906)
+2019-02-03 14:39:24.375  INFO 14989 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-03 14:39:24.375  INFO 14989 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-03 14:39:24.380  INFO 14989 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-02-03 14:39:34.662  INFO 14989 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-03 14:39:39.617  INFO 14992 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekimbp.lan with PID 14992 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
+2019-02-03 14:39:39.620  INFO 14992 --- [main] c.y.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-02-03 14:39:40.597  INFO 14992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-02-03 14:39:40.618  INFO 14992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-03 14:39:40.618  INFO 14992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-03 14:39:40.624  INFO 14992 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-03 14:39:40.688  INFO 14992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-02-03 14:39:40.689  INFO 14992 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1028 ms
+2019-02-03 14:39:40.921  INFO 14992 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-03 14:39:41.094  INFO 14992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-02-03 14:39:41.098  INFO 14992 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.949 seconds (JVM running for 2.546)
+2019-02-03 14:39:43.799  INFO 14992 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-03 14:39:43.800  INFO 14992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-03 14:39:43.810  INFO 14992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-02-03 14:43:13.910  INFO 14992 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-03 14:45:25.088  INFO 15005 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekimbp.lan with PID 15005 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
+2019-02-03 14:45:25.097  INFO 15005 --- [main] c.y.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-02-03 14:45:26.287  INFO 15005 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-02-03 14:45:26.311  INFO 15005 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-03 14:45:26.312  INFO 15005 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-03 14:45:26.320  INFO 15005 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-03 14:45:26.398  INFO 15005 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-02-03 14:45:26.399  INFO 15005 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1185 ms
+2019-02-03 14:45:26.644  INFO 15005 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-03 14:45:26.832  INFO 15005 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-02-03 14:45:26.835  INFO 15005 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.297 seconds (JVM running for 2.923)
+2019-02-03 14:45:30.529  INFO 15005 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-03 14:45:30.530  INFO 15005 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-03 14:45:30.537  INFO 15005 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-02-03 14:52:12.169  INFO 15005 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-03 14:52:16.723  INFO 15013 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekimbp.lan with PID 15013 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
+2019-02-03 14:52:16.726  INFO 15013 --- [main] c.y.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-02-03 14:52:17.959  INFO 15013 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-02-03 14:52:17.989  INFO 15013 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-03 14:52:17.989  INFO 15013 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-03 14:52:17.996  INFO 15013 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-03 14:52:18.061  INFO 15013 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-02-03 14:52:18.062  INFO 15013 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1247 ms
+2019-02-03 14:52:18.291  INFO 15013 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-03 14:52:18.491  INFO 15013 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-02-03 14:52:18.494  INFO 15013 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.222 seconds (JVM running for 2.849)
+2019-02-03 14:52:23.030  INFO 15013 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-03 14:52:23.030  INFO 15013 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-03 14:52:23.041  INFO 15013 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-02-03 14:52:47.193  INFO 15013 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-03 14:52:51.081  INFO 15017 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekimbp.lan with PID 15017 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
+2019-02-03 14:52:51.084  INFO 15017 --- [main] c.y.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-02-03 14:52:52.182  INFO 15017 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-02-03 14:52:52.201  INFO 15017 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-03 14:52:52.202  INFO 15017 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-03 14:52:52.208  INFO 15017 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-03 14:52:52.291  INFO 15017 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-02-03 14:52:52.292  INFO 15017 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1163 ms
+2019-02-03 14:52:52.536  INFO 15017 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-03 14:52:52.725  INFO 15017 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-02-03 14:52:52.729  INFO 15017 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.059 seconds (JVM running for 2.617)
+2019-02-03 14:52:56.918  INFO 15017 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-03 14:52:56.919  INFO 15017 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-03 14:52:56.934  INFO 15017 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2019-02-03 14:53:14.134  INFO 15017 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-03 14:53:16.833  INFO 15021 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekimbp.lan with PID 15021 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
+2019-02-03 14:53:16.837  INFO 15021 --- [main] c.y.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-02-03 14:53:18.090  INFO 15021 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-02-03 14:53:18.124  INFO 15021 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-03 14:53:18.124  INFO 15021 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-03 14:53:18.132  INFO 15021 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-03 14:53:18.214  INFO 15021 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-02-03 14:53:18.215  INFO 15021 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1317 ms
+2019-02-03 14:53:18.487  INFO 15021 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-03 14:53:18.739  INFO 15021 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-02-03 14:53:18.745  INFO 15021 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.337 seconds (JVM running for 2.939)
+2019-02-03 14:53:22.254  INFO 15021 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-03 14:53:22.255  INFO 15021 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-03 14:53:22.266  INFO 15021 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-02-03 14:53:46.100  INFO 15021 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-03 14:53:49.822  INFO 15024 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekimbp.lan with PID 15024 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
+2019-02-03 14:53:49.825  INFO 15024 --- [main] c.y.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-02-03 14:53:50.925  INFO 15024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-02-03 14:53:50.946  INFO 15024 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-03 14:53:50.946  INFO 15024 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-03 14:53:50.952  INFO 15024 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-03 14:53:51.036  INFO 15024 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-02-03 14:53:51.036  INFO 15024 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1156 ms
+2019-02-03 14:53:51.284  INFO 15024 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-03 14:53:51.483  INFO 15024 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-02-03 14:53:51.487  INFO 15024 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.071 seconds (JVM running for 2.643)
+2019-02-03 14:53:55.435  INFO 15024 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-03 14:53:55.436  INFO 15024 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-03 14:53:55.446  INFO 15024 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-02-03 14:53:59.114  INFO 15024 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-03 15:07:44.311  INFO 15039 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekimbp.lan with PID 15039 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
+2019-02-03 15:07:44.317  INFO 15039 --- [main] c.y.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-02-03 15:07:45.706  INFO 15039 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-02-03 15:07:45.731  INFO 15039 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-03 15:07:45.731  INFO 15039 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-03 15:07:45.739  INFO 15039 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-03 15:07:45.820  INFO 15039 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-02-03 15:07:45.820  INFO 15039 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1441 ms
+2019-02-03 15:07:46.108  INFO 15039 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-03 15:07:46.327  INFO 15039 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-02-03 15:07:46.332  INFO 15039 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.652 seconds (JVM running for 3.403)
+2019-02-03 15:07:52.128  INFO 15039 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-03 15:07:52.129  INFO 15039 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-03 15:07:52.137  INFO 15039 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-02-03 15:11:03.792  INFO 15039 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-03 15:11:08.470  INFO 15044 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekimbp.lan with PID 15044 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
+2019-02-03 15:11:08.473  INFO 15044 --- [main] c.y.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-02-03 15:11:10.020  INFO 15044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-02-03 15:11:10.049  INFO 15044 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-03 15:11:10.049  INFO 15044 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-03 15:11:10.056  INFO 15044 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-03 15:11:10.166  INFO 15044 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-02-03 15:11:10.166  INFO 15044 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1536 ms
+2019-02-03 15:11:10.516  INFO 15044 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-03 15:11:10.701  INFO 15044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-02-03 15:11:10.705  INFO 15044 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.67 seconds (JVM running for 3.29)
+2019-02-03 15:11:13.487  INFO 15044 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-03 15:11:13.488  INFO 15044 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-03 15:11:13.494  INFO 15044 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-02-03 15:11:28.539  INFO 15044 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-03 15:11:33.239  INFO 15048 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekimbp.lan with PID 15048 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
+2019-02-03 15:11:33.255  INFO 15048 --- [main] c.y.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-02-03 15:11:34.350  INFO 15048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-02-03 15:11:34.369  INFO 15048 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-03 15:11:34.370  INFO 15048 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-03 15:11:34.376  INFO 15048 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-03 15:11:34.458  INFO 15048 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-02-03 15:11:34.458  INFO 15048 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1142 ms
+2019-02-03 15:11:34.696  INFO 15048 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-03 15:11:34.906  INFO 15048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-02-03 15:11:34.911  INFO 15048 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.074 seconds (JVM running for 2.647)
+2019-02-03 15:11:40.729  INFO 15048 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-03 15:11:40.729  INFO 15048 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-03 15:11:40.739  INFO 15048 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-02-03 15:11:40.770  WARN 15048 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'username' for method parameter of type String]
+2019-02-03 15:11:59.055  INFO 15048 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-03 15:12:03.038  INFO 15051 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekimbp.lan with PID 15051 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
+2019-02-03 15:12:03.044  INFO 15051 --- [main] c.y.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-02-03 15:12:04.121  INFO 15051 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-02-03 15:12:04.142  INFO 15051 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-03 15:12:04.143  INFO 15051 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-03 15:12:04.151  INFO 15051 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-03 15:12:04.273  INFO 15051 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-02-03 15:12:04.274  INFO 15051 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1171 ms
+2019-02-03 15:12:04.505  INFO 15051 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-03 15:12:04.758  INFO 15051 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-02-03 15:12:04.761  INFO 15051 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.182 seconds (JVM running for 2.756)
+2019-02-03 15:12:10.471  INFO 15051 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-03 15:12:10.472  INFO 15051 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-03 15:12:10.481  INFO 15051 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-02-03 15:12:20.575  INFO 15051 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-03 15:12:24.969  INFO 15054 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekimbp.lan with PID 15054 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
+2019-02-03 15:12:24.973  INFO 15054 --- [main] c.y.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-02-03 15:12:26.197  INFO 15054 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-02-03 15:12:26.232  INFO 15054 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-03 15:12:26.233  INFO 15054 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-03 15:12:26.243  INFO 15054 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-03 15:12:26.311  INFO 15054 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-02-03 15:12:26.312  INFO 15054 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1281 ms
+2019-02-03 15:12:26.540  INFO 15054 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-03 15:12:26.730  INFO 15054 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-02-03 15:12:26.734  INFO 15054 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.157 seconds (JVM running for 2.713)
+2019-02-03 15:12:29.299  INFO 15054 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-03 15:12:29.300  INFO 15054 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-03 15:12:29.310  INFO 15054 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-02-03 15:13:07.444  INFO 15054 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-03 15:13:10.142 DEBUG 15058 --- [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2019-02-03 15:13:10.315  INFO 15058 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekimbp.lan with PID 15058 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
+2019-02-03 15:13:10.316  INFO 15058 --- [main] c.y.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-02-03 15:13:11.463  INFO 15058 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-02-03 15:13:11.493  INFO 15058 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-03 15:13:11.493  INFO 15058 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-03 15:13:11.500  INFO 15058 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-03 15:13:11.575  INFO 15058 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-02-03 15:13:11.575  INFO 15058 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1182 ms
+2019-02-03 15:13:11.779  INFO 15058 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-03 15:13:11.963  INFO 15058 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-02-03 15:13:11.967  INFO 15058 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.13 seconds (JVM running for 2.739)
+2019-02-03 15:13:16.860  INFO 15058 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-03 15:13:16.861  INFO 15058 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-03 15:13:16.868  INFO 15058 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-02-03 15:21:42.761  INFO 15058 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

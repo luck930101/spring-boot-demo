@@ -1,0 +1,15 @@
+2019-02-06 14:37:38.521  INFO 22233 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on vpn174-144.uoregon.edu with PID 22233 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
+2019-02-06 14:37:38.527  INFO 22233 --- [main] c.y.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-02-06 14:37:39.933  INFO 22233 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-02-06 14:37:39.957  INFO 22233 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-06 14:37:39.958  INFO 22233 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-06 14:37:39.965  INFO 22233 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-06 14:37:40.051  INFO 22233 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2019-02-06 14:37:40.052  INFO 22233 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1420 ms
+2019-02-06 14:37:40.299  INFO 22233 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-06 14:37:40.605  INFO 22233 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api'
+2019-02-06 14:37:40.610  INFO 22233 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.746 seconds (JVM running for 3.64)
+2019-02-06 14:37:48.052  INFO 22233 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-06 14:37:48.052  INFO 22233 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-06 14:37:48.060  INFO 22233 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-02-06 14:40:41.115  INFO 22233 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

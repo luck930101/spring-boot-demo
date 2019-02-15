@@ -1,0 +1,24 @@
+#server:
+#  port: 8080
+#  servlet:
+#    context-path: /api
+
+spring:
+  profiles:
+    active: dev
+  thymeleaf:
+    mode: HTML
+
+logging:
+  level:
+    root: info
+    com.lrm: DEBUG
+  file: logs/info.log
+
+
+#declare a variable
+#book:
+#  name: Intro to java by ${book.author}
+#  author: Yubo
+#  isbn: ${random.uuid}
+#  description: This is a great book.
