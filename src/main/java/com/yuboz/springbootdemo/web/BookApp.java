@@ -3,6 +3,11 @@ package com.yuboz.springbootdemo.web;
 import com.yuboz.springbootdemo.domain.Book;
 import com.yuboz.springbootdemo.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.web.bind.annotation.*;
 
 import javax.transaction.Transactional;
@@ -20,10 +25,20 @@ public class BookApp {
      * @return
      */
 
+//    @GetMapping("/books")
+//    public List<Book> getAll(){
+//        return bookService.findall();
+//    }
     @GetMapping("/books")
-    public List<Book> getAll(){
-        return bookService.findall();
+//    public Page<Book> getAll(@RequestParam(defaultValue = "0") int page,@RequestParam(defaultValue = "5") int size){
+    public Page<Book> getAll(@PageableDefault(size = 5,sort = {"id"}, direction = Sort.Direction.DESC) Pageable pageable){
+
+//        Sort sort = new Sort(Sort.Direction.DESC,"id");
+//        Pageable pageable = PageRequest.of(page,size,sort);
+
+        return bookService.findAllByPage(pageable);
     }
+
 
     /**
      * add one  to the database

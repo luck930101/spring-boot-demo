@@ -3,11 +3,17 @@ package com.yuboz.springbootdemo.web;
 import com.yuboz.springbootdemo.domain.Book;
 import com.yuboz.springbootdemo.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.List;
@@ -22,9 +28,15 @@ public class BookController {
     private BookService bookService;
 
     @GetMapping("/books")
-    public String list( Model model){
-        List<Book> books = bookService.findall();
-        model.addAttribute("books",books);
+//    public String list( Model model){
+    public String list(@PageableDefault(size = 5,sort = {"id"}, direction = Sort.Direction.DESC) Pageable pageable,
+                       Model model){
+//        List<Book> books = bookService.findall();
+//        model.addAttribute("books",books);
+//        Sort sort = new Sort(Sort.Direction.DESC,"id");
+//        Page<Book> paging =bookService.findAllByPage(PageRequest.of(page,size,sort));
+        Page<Book> paging =bookService.findAllByPage(pageable);
+        model.addAttribute("page",paging);
         return "books";
     }
 
@@ -66,6 +78,7 @@ public class BookController {
         }
 
 
+
         return "redirect:/books";
         /** POST ----->redirect ---->GET
          * Two Requests, can not pass just one Model
@@ -86,5 +99,12 @@ public class BookController {
         model.addAttribute("book",book);
 
         return "addbook";
+    }
+
+    @GetMapping("/books/{id}/delete")
+    public String delete(@PathVariable long id,final RedirectAttributes attributes){
+        bookService.deleteOne(id);
+        attributes.addFlashAttribute("message","deleted!");
+        return  "redirect:/books";
     }
 }

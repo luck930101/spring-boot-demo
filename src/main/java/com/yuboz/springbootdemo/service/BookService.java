@@ -3,6 +3,10 @@ package com.yuboz.springbootdemo.service;
 import com.yuboz.springbootdemo.domain.Book;
 import com.yuboz.springbootdemo.domain.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -22,6 +26,18 @@ public class BookService {
     public List<Book> findall(){
         return bookRepository.findAll();
     }
+
+
+    /**
+     * Paging search all book List
+     * @return
+     */
+    public Page<Book> findAllByPage(Pageable pageable ){
+
+        return bookRepository.findAll(pageable);
+    }
+
+
 
     /**
      * post a new book

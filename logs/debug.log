@@ -1,907 +1,138 @@
-2019-02-16 00:14:55.194  WARN 48093 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h22s764ms).
-2019-02-16 00:25:22.031  WARN 48093 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m26s861ms).
-2019-02-16 01:07:57.998  WARN 48093 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=42m35s544ms).
-2019-02-16 03:08:51.892  WARN 48093 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h23s851ms).
-2019-02-16 05:09:01.720  WARN 48093 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h9s827ms).
-2019-02-16 05:55:49.920  WARN 48093 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m48s198ms).
-2019-02-16 06:20:59.485  WARN 48093 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m9s298ms).
-2019-02-16 06:57:05.056  WARN 48093 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m35s468ms).
-2019-02-16 13:51:15.827  WARN 48093 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h54m10s774ms).
-2019-02-16 14:24:45.606  INFO 48093 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-16 14:24:45.616  INFO 48093 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 14:24:45.779  INFO 48093 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-02-16 14:24:45.799  INFO 48093 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-02-16 14:46:41.124  INFO 49293 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 49293 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
-2019-02-16 14:46:41.127  INFO 49293 --- [main] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
-2019-02-16 14:46:42.206  INFO 49293 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-16 14:46:42.294  INFO 49293 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78ms. Found 1 repository interfaces.
-2019-02-16 14:46:42.696  INFO 49293 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$94917b0d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-16 14:46:43.175  INFO 49293 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-02-16 14:46:43.205  INFO 49293 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-02-16 14:46:43.205  INFO 49293 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-02-16 14:46:43.213  INFO 49293 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-16 14:46:43.305  INFO 49293 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-02-16 14:46:43.305  INFO 49293 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2098 ms
-2019-02-16 14:46:43.497  INFO 49293 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-02-16 14:46:43.623  INFO 49293 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-02-16 14:46:43.791  INFO 49293 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2019-02-17 00:20:53.566  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h59m30s826ms).
+2019-02-17 01:05:43.416  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m49s850ms).
+2019-02-17 01:30:32.488  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m49s58ms).
+2019-02-17 02:19:01.857  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m28s824ms).
+2019-02-17 02:56:59.306  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m27s445ms).
+2019-02-17 02:57:59.544  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s854ms), soft-evicting connections from pool.
+2019-02-17 03:23:37.446  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m7s786ms).
+2019-02-17 03:54:07.253  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m29s801ms).
+2019-02-17 04:56:44.960  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m7s786ms).
+2019-02-17 05:23:10.228  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m25s264ms).
+2019-02-17 06:50:22.893  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h25m41s801ms).
+2019-02-17 08:20:28.345  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h30m5s451ms).
+2019-02-17 08:32:49.966  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m50s804ms).
+2019-02-17 08:40:22.248  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m32s281ms).
+2019-02-17 08:41:22.166  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s830ms), soft-evicting connections from pool.
+2019-02-17 08:50:01.944  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m9s763ms).
+2019-02-17 09:44:59.351  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m57s406ms).
+2019-02-17 09:45:59.200  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s811ms), soft-evicting connections from pool.
+2019-02-17 09:59:05.023  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m35s807ms).
+2019-02-17 10:05:59.207  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m54s183ms).
+2019-02-17 10:06:47.037  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s830ms).
+2019-02-17 10:13:54.353  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s161ms).
+2019-02-17 10:21:04.263  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s66ms).
+2019-02-17 10:25:18.357  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s867ms).
+2019-02-17 10:38:14.743  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s600ms).
+2019-02-17 10:45:22.690  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s638ms).
+2019-02-17 10:49:37.738  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s121ms).
+2019-02-17 10:56:45.685  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s631ms).
+2019-02-17 11:00:59.725  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s535ms).
+2019-02-17 11:05:15.318  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s620ms).
+2019-02-17 11:12:21.279  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s384ms).
+2019-02-17 13:48:55.899  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h30m16s509ms).
+2019-02-17 13:54:20.581  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m24s583ms).
+2019-02-17 14:07:35.832  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m15s252ms).
+2019-02-17 14:15:02.562  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m26s730ms).
+2019-02-17 14:20:06.875  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m34s301ms).
+2019-02-17 14:26:06.258  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m59s383ms).
+2019-02-17 14:27:00.568  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s310ms).
+2019-02-17 14:27:49.870  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s302ms).
+2019-02-17 14:29:36.237  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m16s358ms).
+2019-02-17 14:37:24.619  WARN 51123 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m48s382ms).
+2019-02-17 15:08:03.966  INFO 51123 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-17 15:08:03.974  INFO 51123 --- [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-17 15:08:03.993  INFO 51123 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-02-17 15:08:04.002  INFO 51123 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-02-17 15:08:11.293  INFO 53296 --- [restartedMain] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 53296 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
+2019-02-17 15:08:11.296  INFO 53296 --- [restartedMain] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
+2019-02-17 15:08:11.352  INFO 53296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-17 15:08:11.352  INFO 53296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-17 15:08:12.169  INFO 53296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-17 15:08:12.231  INFO 53296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 1 repository interfaces.
+2019-02-17 15:08:12.577  INFO 53296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d5476323] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-17 15:08:12.995  INFO 53296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-02-17 15:08:13.020  INFO 53296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-17 15:08:13.020  INFO 53296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-17 15:08:13.028  INFO 53296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-17 15:08:13.144  INFO 53296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-17 15:08:13.144  INFO 53296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1792 ms
+2019-02-17 15:08:13.324  INFO 53296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-02-17 15:08:13.530  INFO 53296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-02-17 15:08:13.603  INFO 53296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2019-02-16 14:46:43.899  INFO 49293 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2019-02-16 14:46:43.900  INFO 49293 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-02-16 14:46:44.107  INFO 49293 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-02-16 14:46:44.291  INFO 49293 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2019-02-16 14:46:44.979  INFO 49293 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 14:46:45.387  INFO 49293 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-02-16 14:46:45.688  INFO 49293 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-16 14:46:45.731  WARN 49293 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-02-16 14:46:45.968  INFO 49293 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-02-16 14:46:45.971  INFO 49293 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 5.526 seconds (JVM running for 6.417)
-2019-02-16 14:47:40.670  INFO 49293 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-16 14:47:40.672  INFO 49293 --- [Thread-14] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 14:47:40.676  INFO 49293 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-02-16 14:47:40.679  INFO 49293 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-02-16 14:47:44.753  INFO 49300 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 49300 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
-2019-02-16 14:47:44.757  INFO 49300 --- [main] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
-2019-02-16 14:47:45.807  INFO 49300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-16 14:47:45.901  INFO 49300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85ms. Found 1 repository interfaces.
-2019-02-16 14:47:46.314  INFO 49300 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9426f6d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-16 14:47:46.663  INFO 49300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-02-16 14:47:46.692  INFO 49300 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-02-16 14:47:46.693  INFO 49300 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-02-16 14:47:46.702  INFO 49300 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-16 14:47:46.825  INFO 49300 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-02-16 14:47:46.825  INFO 49300 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1968 ms
-2019-02-16 14:47:46.985  INFO 49300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-02-16 14:47:47.084  INFO 49300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-02-16 14:47:47.250  INFO 49300 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2019-02-17 15:08:13.687  INFO 53296 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-17 15:08:13.689  INFO 53296 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-02-17 15:08:13.863  INFO 53296 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-17 15:08:14.016  INFO 53296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-17 15:08:14.580  INFO 53296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-17 15:08:14.634  INFO 53296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-02-17 15:08:14.946  INFO 53296 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-02-17 15:08:15.231  INFO 53296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-17 15:08:15.267  WARN 53296 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-17 15:08:15.478  INFO 53296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-17 15:08:15.480  INFO 53296 --- [restartedMain] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 4.792 seconds (JVM running for 5.8)
+2019-02-17 15:09:21.414  INFO 53296 --- [Thread-13] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-17 15:09:21.416  INFO 53296 --- [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-17 15:09:21.421  INFO 53296 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-02-17 15:09:21.426  INFO 53296 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-02-17 15:09:21.711  INFO 53296 --- [restartedMain] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 53296 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
+2019-02-17 15:09:21.711  INFO 53296 --- [restartedMain] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
+2019-02-17 15:09:21.867  INFO 53296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-17 15:09:21.873  INFO 53296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 1 repository interfaces.
+2019-02-17 15:09:21.916  INFO 53296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d5476323] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-17 15:09:22.012  INFO 53296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-02-17 15:09:22.014  INFO 53296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-17 15:09:22.014  INFO 53296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-17 15:09:22.025  INFO 53296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-17 15:09:22.025  INFO 53296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 312 ms
+2019-02-17 15:09:22.083  INFO 53296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2019-02-17 15:09:22.090  INFO 53296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2019-02-17 15:09:22.097  INFO 53296 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2019-02-16 14:47:47.310  INFO 49300 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2019-02-16 14:47:47.311  INFO 49300 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-02-16 14:47:47.419  INFO 49300 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-02-16 14:47:47.530  INFO 49300 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2019-02-16 14:47:48.083  INFO 49300 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 14:47:48.394  INFO 49300 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-02-16 14:47:48.662  INFO 49300 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-16 14:47:48.701  WARN 49300 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-02-16 14:47:48.921  INFO 49300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-02-16 14:47:48.924  INFO 49300 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 4.724 seconds (JVM running for 5.335)
-2019-02-16 14:48:12.789  INFO 49300 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-02-16 14:48:12.791  INFO 49300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-02-16 14:48:12.815  INFO 49300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
-2019-02-16 14:50:47.490  INFO 49300 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-16 14:50:47.492  INFO 49300 --- [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 14:50:47.496  INFO 49300 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-02-16 14:50:47.504  INFO 49300 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-02-16 14:50:51.164  INFO 49309 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 49309 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
-2019-02-16 14:50:51.167  INFO 49309 --- [main] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
-2019-02-16 14:50:52.097  INFO 49309 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-16 14:50:52.159  INFO 49309 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 1 repository interfaces.
-2019-02-16 14:50:52.501  INFO 49309 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$353000b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-16 14:50:52.839  INFO 49309 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-02-16 14:50:52.897  INFO 49309 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-02-16 14:50:52.898  INFO 49309 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-02-16 14:50:52.905  INFO 49309 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-16 14:50:52.992  INFO 49309 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-02-16 14:50:52.992  INFO 49309 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1764 ms
-2019-02-16 14:50:53.136  INFO 49309 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-02-16 14:50:53.235  INFO 49309 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-02-16 14:50:53.389  INFO 49309 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2019-02-17 15:09:22.105  INFO 53296 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-17 15:09:22.188  INFO 53296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-17 15:09:22.239  INFO 53296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-02-17 15:09:22.275  INFO 53296 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-02-17 15:09:22.373  INFO 53296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-17 15:09:22.382  WARN 53296 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-17 15:09:22.517  INFO 53296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-17 15:09:22.518  INFO 53296 --- [restartedMain] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 0.832 seconds (JVM running for 72.834)
+2019-02-17 15:09:22.521  INFO 53296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-02-17 15:40:02.095  INFO 53296 --- [Thread-28] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-17 15:40:02.099  INFO 53296 --- [Thread-28] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-17 15:40:02.103  INFO 53296 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2019-02-17 15:40:02.109  INFO 53296 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2019-02-17 15:40:07.818  INFO 53505 --- [restartedMain] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 53505 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
+2019-02-17 15:40:07.822  INFO 53505 --- [restartedMain] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
+2019-02-17 15:40:07.882  INFO 53505 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-17 15:40:07.882  INFO 53505 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-17 15:40:08.636  INFO 53505 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-17 15:40:08.689  INFO 53505 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46ms. Found 1 repository interfaces.
+2019-02-17 15:40:09.095  INFO 53505 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ca718124] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-17 15:40:09.387  INFO 53505 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-02-17 15:40:09.403  INFO 53505 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-17 15:40:09.404  INFO 53505 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-17 15:40:09.409  INFO 53505 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-17 15:40:09.524  INFO 53505 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-02-17 15:40:09.524  INFO 53505 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1641 ms
+2019-02-17 15:40:09.658  INFO 53505 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-02-17 15:40:09.880  INFO 53505 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-02-17 15:40:09.916  INFO 53505 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2019-02-16 14:50:53.439  INFO 49309 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2019-02-16 14:50:53.440  INFO 49309 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-02-16 14:50:53.551  INFO 49309 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-02-16 14:50:53.668  INFO 49309 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2019-02-16 14:50:54.219  INFO 49309 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 14:50:54.558  INFO 49309 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-02-16 14:50:54.899  INFO 49309 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-16 14:50:54.935  WARN 49309 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-02-16 14:50:55.177  INFO 49309 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-02-16 14:50:55.180  INFO 49309 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 4.666 seconds (JVM running for 5.328)
-2019-02-16 14:51:09.340  INFO 49309 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-02-16 14:51:09.342  INFO 49309 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-02-16 14:51:09.355  INFO 49309 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
-2019-02-16 14:52:16.911  INFO 49309 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-16 14:52:16.912  INFO 49309 --- [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 14:52:16.916  INFO 49309 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-02-16 14:52:16.920  INFO 49309 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-02-16 14:52:19.099  INFO 49315 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 49315 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
-2019-02-16 14:52:19.103  INFO 49315 --- [main] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
-2019-02-16 14:52:19.909  INFO 49315 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-16 14:52:19.959  INFO 49315 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44ms. Found 1 repository interfaces.
-2019-02-16 14:52:20.277  INFO 49315 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$56a3e15f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-16 14:52:20.551  INFO 49315 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-02-16 14:52:20.571  INFO 49315 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-02-16 14:52:20.572  INFO 49315 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-02-16 14:52:20.577  INFO 49315 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-16 14:52:20.673  INFO 49315 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-02-16 14:52:20.673  INFO 49315 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1516 ms
-2019-02-16 14:52:20.793  INFO 49315 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-02-16 14:52:20.883  INFO 49315 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-02-16 14:52:21.011  INFO 49315 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2019-02-16 14:52:21.058  INFO 49315 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2019-02-16 14:52:21.059  INFO 49315 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-02-16 14:52:21.147  INFO 49315 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-02-16 14:52:21.251  INFO 49315 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2019-02-16 14:52:21.708  INFO 49315 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 14:52:22.027  INFO 49315 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-02-16 14:52:22.298  INFO 49315 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-16 14:52:22.331  WARN 49315 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-02-16 14:52:22.553  INFO 49315 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-02-16 14:52:22.556  INFO 49315 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 3.929 seconds (JVM running for 4.725)
-2019-02-16 14:52:27.095  INFO 49315 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-02-16 14:52:27.096  INFO 49315 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-02-16 14:52:27.104  INFO 49315 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2019-02-16 14:53:17.557  INFO 49315 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-16 14:53:17.559  INFO 49315 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 14:53:17.564  INFO 49315 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-02-16 14:53:17.569  INFO 49315 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-02-16 14:53:20.855  INFO 49323 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 49323 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
-2019-02-16 14:53:20.866  INFO 49323 --- [main] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
-2019-02-16 14:53:21.566  INFO 49323 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-16 14:53:21.622  INFO 49323 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50ms. Found 1 repository interfaces.
-2019-02-16 14:53:21.952  INFO 49323 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c47c5921] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-16 14:53:22.234  INFO 49323 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-02-16 14:53:22.258  INFO 49323 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-02-16 14:53:22.258  INFO 49323 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-02-16 14:53:22.265  INFO 49323 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-16 14:53:22.361  INFO 49323 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-02-16 14:53:22.361  INFO 49323 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1442 ms
-2019-02-16 14:53:22.512  INFO 49323 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-02-16 14:53:22.617  INFO 49323 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-02-16 14:53:22.764  INFO 49323 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2019-02-16 14:53:22.812  INFO 49323 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2019-02-16 14:53:22.813  INFO 49323 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-02-16 14:53:22.900  INFO 49323 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-02-16 14:53:22.996  INFO 49323 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2019-02-16 14:53:23.623  INFO 49323 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 14:53:23.995  INFO 49323 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-02-16 14:53:24.293  INFO 49323 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-16 14:53:24.324  WARN 49323 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-02-16 14:53:24.531  INFO 49323 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-02-16 14:53:24.533  INFO 49323 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 4.25 seconds (JVM running for 4.968)
-2019-02-16 14:54:03.337  INFO 49323 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-16 14:54:03.338  INFO 49323 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 14:54:03.342  INFO 49323 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-02-16 14:54:03.345  INFO 49323 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-02-16 14:54:06.175  INFO 49329 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 49329 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
-2019-02-16 14:54:06.178  INFO 49329 --- [main] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
-2019-02-16 14:54:07.046  INFO 49329 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-16 14:54:07.111  INFO 49329 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57ms. Found 1 repository interfaces.
-2019-02-16 14:54:07.463  INFO 49329 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$24a84fad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-16 14:54:07.775  INFO 49329 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-02-16 14:54:07.802  INFO 49329 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-02-16 14:54:07.802  INFO 49329 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-02-16 14:54:07.809  INFO 49329 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-16 14:54:07.928  INFO 49329 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-02-16 14:54:07.928  INFO 49329 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1678 ms
-2019-02-16 14:54:08.049  INFO 49329 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-02-16 14:54:08.134  INFO 49329 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-02-16 14:54:08.266  INFO 49329 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2019-02-16 14:54:08.311  INFO 49329 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2019-02-16 14:54:08.312  INFO 49329 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-02-16 14:54:08.398  INFO 49329 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-02-16 14:54:08.491  INFO 49329 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2019-02-16 14:54:09.001  INFO 49329 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 14:54:09.301  INFO 49329 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-02-16 14:54:09.556  INFO 49329 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-16 14:54:09.586  WARN 49329 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-02-16 14:54:09.798  INFO 49329 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-02-16 14:54:09.800  INFO 49329 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 4.067 seconds (JVM running for 4.669)
-2019-02-16 14:54:18.317  INFO 49329 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-02-16 14:54:18.318  INFO 49329 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-02-16 14:54:18.327  INFO 49329 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-2019-02-16 14:54:50.219  INFO 49329 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-16 14:54:50.221  INFO 49329 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 14:54:50.224  INFO 49329 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-02-16 14:54:50.228  INFO 49329 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-02-16 14:54:52.168  INFO 49332 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 49332 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
-2019-02-16 14:54:52.170  INFO 49332 --- [main] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
-2019-02-16 14:54:53.067  INFO 49332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-16 14:54:53.151  INFO 49332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72ms. Found 1 repository interfaces.
-2019-02-16 14:54:53.540  INFO 49332 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b89e96b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-16 14:54:53.865  INFO 49332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-02-16 14:54:53.888  INFO 49332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-02-16 14:54:53.889  INFO 49332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-02-16 14:54:53.896  INFO 49332 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-16 14:54:54.022  INFO 49332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-02-16 14:54:54.023  INFO 49332 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1804 ms
-2019-02-16 14:54:54.179  INFO 49332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-02-16 14:54:54.269  INFO 49332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-02-16 14:54:54.403  INFO 49332 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2019-02-16 14:54:54.453  INFO 49332 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2019-02-16 14:54:54.454  INFO 49332 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-02-16 14:54:54.544  INFO 49332 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-02-16 14:54:54.650  INFO 49332 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2019-02-16 14:54:55.187  INFO 49332 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 14:54:55.525  INFO 49332 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-02-16 14:54:55.816  INFO 49332 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-16 14:54:55.849  WARN 49332 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-02-16 14:54:56.060  INFO 49332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-02-16 14:54:56.062  INFO 49332 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 4.345 seconds (JVM running for 5.092)
-2019-02-16 14:55:04.207  INFO 49332 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-02-16 14:55:04.209  INFO 49332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-02-16 14:55:04.217  INFO 49332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2019-02-16 14:55:38.095  INFO 49332 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-16 14:55:38.096  INFO 49332 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 14:55:38.099  INFO 49332 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-02-16 14:55:38.105  INFO 49332 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-02-16 14:55:41.263  INFO 49358 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 49358 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
-2019-02-16 14:55:41.265  INFO 49358 --- [main] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
-2019-02-16 14:55:42.057  INFO 49358 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-16 14:55:42.127  INFO 49358 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61ms. Found 1 repository interfaces.
-2019-02-16 14:55:42.509  INFO 49358 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7ab8d897] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-16 14:55:42.835  INFO 49358 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-02-16 14:55:42.860  INFO 49358 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-02-16 14:55:42.861  INFO 49358 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-02-16 14:55:42.867  INFO 49358 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-16 14:55:42.965  INFO 49358 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-02-16 14:55:42.965  INFO 49358 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1650 ms
-2019-02-16 14:55:43.088  INFO 49358 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-02-16 14:55:43.179  INFO 49358 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-02-16 14:55:43.316  INFO 49358 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2019-02-16 14:55:43.362  INFO 49358 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2019-02-16 14:55:43.363  INFO 49358 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-02-16 14:55:43.447  INFO 49358 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-02-16 14:55:43.543  INFO 49358 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2019-02-16 14:55:44.011  INFO 49358 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 14:55:44.329  INFO 49358 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-02-16 14:55:44.637  INFO 49358 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-16 14:55:44.673  WARN 49358 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-02-16 14:55:44.933  INFO 49358 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-02-16 14:55:44.937  INFO 49358 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 4.246 seconds (JVM running for 4.942)
-2019-02-16 14:55:55.244  INFO 49358 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-02-16 14:55:55.245  INFO 49358 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-02-16 14:55:55.253  INFO 49358 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2019-02-16 14:56:30.153  INFO 49358 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-16 14:56:30.154  INFO 49358 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 14:56:30.158  INFO 49358 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-02-16 14:56:30.163  INFO 49358 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-02-16 14:56:32.963 DEBUG 49363 --- [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
-2019-02-16 14:56:33.071  INFO 49363 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 49363 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
-2019-02-16 14:56:33.072  INFO 49363 --- [main] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
-2019-02-16 14:56:33.932  INFO 49363 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-16 14:56:33.999  INFO 49363 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 1 repository interfaces.
-2019-02-16 14:56:34.310  INFO 49363 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$224c0262] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-16 14:56:34.582  INFO 49363 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-02-16 14:56:34.607  INFO 49363 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-02-16 14:56:34.608  INFO 49363 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-02-16 14:56:34.616  INFO 49363 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-16 14:56:34.752  INFO 49363 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-02-16 14:56:34.752  INFO 49363 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1639 ms
-2019-02-16 14:56:34.902  INFO 49363 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-02-16 14:56:34.985  INFO 49363 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-02-16 14:56:35.117  INFO 49363 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2019-02-16 14:56:35.161  INFO 49363 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2019-02-16 14:56:35.162  INFO 49363 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-02-16 14:56:35.273  INFO 49363 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-02-16 14:56:35.396  INFO 49363 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2019-02-16 14:56:35.931  INFO 49363 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 14:56:36.232  INFO 49363 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-02-16 14:56:36.553  INFO 49363 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-16 14:56:36.586  WARN 49363 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-02-16 14:56:36.840  INFO 49363 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-02-16 14:56:36.844  INFO 49363 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 4.208 seconds (JVM running for 4.836)
-2019-02-16 14:56:42.007  INFO 49363 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-02-16 14:56:42.008  INFO 49363 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-02-16 14:56:42.017  INFO 49363 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2019-02-16 14:59:51.023  INFO 49363 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-16 14:59:51.025  INFO 49363 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 14:59:51.027  INFO 49363 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-02-16 14:59:51.031  INFO 49363 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-02-16 14:59:54.778  INFO 49372 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 49372 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
-2019-02-16 14:59:54.781  INFO 49372 --- [main] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
-2019-02-16 14:59:55.667  INFO 49372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-16 14:59:55.756  INFO 49372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80ms. Found 1 repository interfaces.
-2019-02-16 14:59:56.201  INFO 49372 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2273973a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-16 14:59:56.520  INFO 49372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-02-16 14:59:56.539  INFO 49372 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-02-16 14:59:56.540  INFO 49372 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-02-16 14:59:56.546  INFO 49372 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-16 14:59:56.651  INFO 49372 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-02-16 14:59:56.652  INFO 49372 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1825 ms
-2019-02-16 14:59:56.783  INFO 49372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-02-16 14:59:56.881  INFO 49372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-02-16 14:59:57.032  INFO 49372 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2019-02-16 14:59:57.084  INFO 49372 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2019-02-16 14:59:57.085  INFO 49372 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-02-16 14:59:57.179  INFO 49372 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-02-16 14:59:57.286  INFO 49372 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2019-02-16 14:59:57.797  INFO 49372 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 14:59:58.115  INFO 49372 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-02-16 14:59:58.375  INFO 49372 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-16 14:59:58.408  WARN 49372 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-02-16 14:59:58.630  INFO 49372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-02-16 14:59:58.633  INFO 49372 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 4.554 seconds (JVM running for 5.374)
-2019-02-16 15:00:07.714  INFO 49372 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-02-16 15:00:07.715  INFO 49372 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-02-16 15:00:07.723  INFO 49372 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2019-02-16 15:00:31.353  INFO 49372 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-16 15:00:31.355  INFO 49372 --- [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 15:00:31.358  INFO 49372 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-02-16 15:00:31.362  INFO 49372 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-02-16 15:00:34.275  INFO 49395 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 49395 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
-2019-02-16 15:00:34.278  INFO 49395 --- [main] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
-2019-02-16 15:00:35.219  INFO 49395 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-16 15:00:35.330  INFO 49395 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90ms. Found 1 repository interfaces.
-2019-02-16 15:00:35.703  INFO 49395 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cb7d904a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-16 15:00:35.972  INFO 49395 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-02-16 15:00:35.996  INFO 49395 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-02-16 15:00:35.996  INFO 49395 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-02-16 15:00:36.003  INFO 49395 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-16 15:00:36.113  INFO 49395 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-02-16 15:00:36.114  INFO 49395 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1796 ms
-2019-02-16 15:00:36.288  INFO 49395 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-02-16 15:00:36.406  INFO 49395 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-02-16 15:00:36.567  INFO 49395 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2019-02-16 15:00:36.610  INFO 49395 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2019-02-16 15:00:36.611  INFO 49395 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-02-16 15:00:36.761  INFO 49395 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-02-16 15:00:36.888  INFO 49395 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2019-02-16 15:00:37.383  INFO 49395 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 15:00:37.654  INFO 49395 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-02-16 15:00:37.903  INFO 49395 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-16 15:00:37.935  WARN 49395 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-02-16 15:00:38.142  INFO 49395 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-02-16 15:00:38.145  INFO 49395 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 4.259 seconds (JVM running for 4.817)
-2019-02-16 15:00:44.989  INFO 49395 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-02-16 15:00:44.990  INFO 49395 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-02-16 15:00:44.999  INFO 49395 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-2019-02-16 15:01:33.148  INFO 49395 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-16 15:01:33.151  INFO 49395 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 15:01:33.154  INFO 49395 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-02-16 15:01:33.158  INFO 49395 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-02-16 15:01:35.969  INFO 49436 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 49436 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
-2019-02-16 15:01:35.972  INFO 49436 --- [main] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
-2019-02-16 15:01:36.844  INFO 49436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-16 15:01:36.896  INFO 49436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46ms. Found 1 repository interfaces.
-2019-02-16 15:01:37.201  INFO 49436 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8af86c2a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-16 15:01:37.482  INFO 49436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-02-16 15:01:37.504  INFO 49436 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-02-16 15:01:37.504  INFO 49436 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-02-16 15:01:37.510  INFO 49436 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-16 15:01:37.617  INFO 49436 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-02-16 15:01:37.617  INFO 49436 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1550 ms
-2019-02-16 15:01:37.729  INFO 49436 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-02-16 15:01:37.816  INFO 49436 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-02-16 15:01:37.948  INFO 49436 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2019-02-16 15:01:37.992  INFO 49436 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2019-02-16 15:01:37.993  INFO 49436 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-02-16 15:01:38.079  INFO 49436 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-02-16 15:01:38.177  INFO 49436 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2019-02-16 15:01:38.680  INFO 49436 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 15:01:38.999  INFO 49436 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-02-16 15:01:39.272  INFO 49436 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-16 15:01:39.305  WARN 49436 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-02-16 15:01:39.534  INFO 49436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-02-16 15:01:39.536  INFO 49436 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 3.992 seconds (JVM running for 4.622)
-2019-02-16 15:01:47.757  INFO 49436 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-02-16 15:01:47.758  INFO 49436 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-02-16 15:01:47.767  INFO 49436 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-2019-02-16 15:02:31.334  INFO 49436 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-16 15:02:31.335  INFO 49436 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 15:02:31.339  INFO 49436 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-02-16 15:02:31.342  INFO 49436 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-02-16 15:02:34.443  INFO 49441 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 49441 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
-2019-02-16 15:02:34.455  INFO 49441 --- [main] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
-2019-02-16 15:02:35.474  INFO 49441 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-16 15:02:35.537  INFO 49441 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57ms. Found 1 repository interfaces.
-2019-02-16 15:02:35.873  INFO 49441 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$98a3377c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-16 15:02:36.153  INFO 49441 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-02-16 15:02:36.177  INFO 49441 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-02-16 15:02:36.178  INFO 49441 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-02-16 15:02:36.185  INFO 49441 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-16 15:02:36.282  INFO 49441 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-02-16 15:02:36.282  INFO 49441 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1683 ms
-2019-02-16 15:02:36.416  INFO 49441 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-02-16 15:02:36.505  INFO 49441 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-02-16 15:02:36.645  INFO 49441 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2019-02-16 15:02:36.690  INFO 49441 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2019-02-16 15:02:36.691  INFO 49441 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-02-16 15:02:36.777  INFO 49441 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-02-16 15:02:36.871  INFO 49441 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2019-02-16 15:02:37.352  INFO 49441 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 15:02:37.634  INFO 49441 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-02-16 15:02:37.880  INFO 49441 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-16 15:02:37.910  WARN 49441 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-02-16 15:02:38.117  INFO 49441 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-02-16 15:02:38.120  INFO 49441 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 4.199 seconds (JVM running for 4.782)
-2019-02-16 15:05:32.237  INFO 49441 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-02-16 15:05:32.239  INFO 49441 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-02-16 15:05:32.269  INFO 49441 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 30 ms
-2019-02-16 15:05:32.749 ERROR 49441 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "addbook": Exception evaluating SpringEL expression: "id" (template: "addbook" - line 21, col 39)
-
-org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "id" (template: "addbook" - line 21, col 39)
-	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.SelectionVariableExpression.executeSelectionVariableExpression(SelectionVariableExpression.java:158) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:92) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.StandaloneElementTag.beHandled(StandaloneElementTag.java:228) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370) [spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116) [spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055) [spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) [spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'id' cannot be found on null
-	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213) ~[spring-expression-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104) ~[spring-expression-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:91) ~[spring-expression-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:109) ~[spring-expression-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:328) ~[spring-expression-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	... 62 common frames omitted
-
-2019-02-16 15:05:32.755 ERROR 49441 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "id" (template: "addbook" - line 21, col 39)] with root cause
-
-org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'id' cannot be found on null
-	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213) ~[spring-expression-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104) ~[spring-expression-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:91) ~[spring-expression-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:109) ~[spring-expression-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:328) ~[spring-expression-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.SelectionVariableExpression.executeSelectionVariableExpression(SelectionVariableExpression.java:158) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:92) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.StandaloneElementTag.beHandled(StandaloneElementTag.java:228) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-
-2019-02-16 15:07:03.597  INFO 49441 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-16 15:07:03.599  INFO 49441 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 15:07:03.605  INFO 49441 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-02-16 15:07:03.611  INFO 49441 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-02-16 15:07:07.985  INFO 49450 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 49450 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
-2019-02-16 15:07:08.001  INFO 49450 --- [main] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
-2019-02-16 15:07:09.015  INFO 49450 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-16 15:07:09.089  INFO 49450 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 1 repository interfaces.
-2019-02-16 15:07:09.561  INFO 49450 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ff479463] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-16 15:07:09.971  INFO 49450 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-02-16 15:07:09.995  INFO 49450 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-02-16 15:07:09.996  INFO 49450 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-02-16 15:07:10.002  INFO 49450 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-16 15:07:10.129  INFO 49450 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-02-16 15:07:10.130  INFO 49450 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2050 ms
-2019-02-16 15:07:10.284  INFO 49450 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-02-16 15:07:10.384  INFO 49450 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-02-16 15:07:10.424  INFO 49450 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2019-02-16 15:07:10.611  INFO 49450 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2019-02-16 15:07:10.612  INFO 49450 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-02-16 15:07:10.708  INFO 49450 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-02-16 15:07:10.812  INFO 49450 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2019-02-16 15:07:11.349  INFO 49450 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 15:07:11.703  INFO 49450 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-02-16 15:07:11.977  INFO 49450 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-16 15:07:12.015  WARN 49450 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-02-16 15:07:12.235  INFO 49450 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-02-16 15:07:12.238  INFO 49450 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 4.881 seconds (JVM running for 5.621)
-2019-02-16 15:07:18.903  INFO 49450 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-02-16 15:07:18.904  INFO 49450 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-02-16 15:07:18.913  INFO 49450 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-2019-02-16 15:19:48.661  INFO 49450 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-16 15:19:48.666  INFO 49450 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 15:19:48.676  INFO 49450 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-02-16 15:19:48.685  INFO 49450 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-02-16 15:19:53.010  INFO 49518 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 49518 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
-2019-02-16 15:19:53.014  INFO 49518 --- [main] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
-2019-02-16 15:19:53.857  INFO 49518 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-16 15:19:53.911  INFO 49518 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47ms. Found 1 repository interfaces.
-2019-02-16 15:19:54.219  INFO 49518 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$78eb6e21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-16 15:19:54.474  INFO 49518 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-02-16 15:19:54.493  INFO 49518 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-02-16 15:19:54.493  INFO 49518 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-02-16 15:19:54.499  INFO 49518 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-16 15:19:54.617  INFO 49518 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-02-16 15:19:54.617  INFO 49518 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1555 ms
-2019-02-16 15:19:54.770  INFO 49518 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-02-16 15:19:54.866  INFO 49518 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-02-16 15:19:55.019  INFO 49518 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2019-02-16 15:19:55.071  INFO 49518 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2019-02-16 15:19:55.072  INFO 49518 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-02-16 15:19:55.169  INFO 49518 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-02-16 15:19:55.271  INFO 49518 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2019-02-16 15:19:55.780  INFO 49518 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 15:19:56.105  INFO 49518 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-02-16 15:19:56.393  INFO 49518 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-16 15:19:56.429  WARN 49518 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-02-16 15:19:56.654  INFO 49518 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-02-16 15:19:56.657  INFO 49518 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 4.334 seconds (JVM running for 5.095)
-2019-02-16 15:20:11.914  INFO 49518 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-02-16 15:20:11.915  INFO 49518 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-02-16 15:20:11.923  INFO 49518 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2019-02-16 15:32:49.556  INFO 49518 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-16 15:32:49.561  INFO 49518 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 15:32:49.575  INFO 49518 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-02-16 15:32:49.586  INFO 49518 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-02-16 15:32:54.461  INFO 49589 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 49589 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
-2019-02-16 15:32:54.463  INFO 49589 --- [main] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
-2019-02-16 15:32:55.623  INFO 49589 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-16 15:32:55.718  INFO 49589 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88ms. Found 1 repository interfaces.
-2019-02-16 15:32:56.097  INFO 49589 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bf474b30] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-16 15:32:56.409  INFO 49589 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-02-16 15:32:56.431  INFO 49589 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-02-16 15:32:56.433  INFO 49589 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-02-16 15:32:56.440  INFO 49589 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-16 15:32:56.628  INFO 49589 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-02-16 15:32:56.628  INFO 49589 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2102 ms
-2019-02-16 15:32:56.771  INFO 49589 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-02-16 15:32:56.867  INFO 49589 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-02-16 15:32:57.009  INFO 49589 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2019-02-16 15:32:57.062  INFO 49589 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2019-02-16 15:32:57.064  INFO 49589 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-02-16 15:32:57.196  INFO 49589 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-02-16 15:32:57.305  INFO 49589 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2019-02-16 15:32:57.810  INFO 49589 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 15:32:58.134  INFO 49589 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-02-16 15:32:58.389  INFO 49589 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-16 15:32:58.420  WARN 49589 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-02-16 15:32:58.628  INFO 49589 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-02-16 15:32:58.630  INFO 49589 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 4.793 seconds (JVM running for 5.568)
-2019-02-16 15:33:02.997  INFO 49589 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-02-16 15:33:02.998  INFO 49589 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-02-16 15:33:03.006  INFO 49589 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2019-02-16 15:35:18.088  INFO 49589 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-16 15:35:18.089  INFO 49589 --- [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 15:35:18.092  INFO 49589 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-02-16 15:35:18.096  INFO 49589 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-02-16 15:35:21.297  INFO 49597 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 49597 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
-2019-02-16 15:35:21.299  INFO 49597 --- [main] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
-2019-02-16 15:35:22.132  INFO 49597 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-16 15:35:22.199  INFO 49597 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 1 repository interfaces.
-2019-02-16 15:35:22.541  INFO 49597 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d3558fb7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-16 15:35:22.824  INFO 49597 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-02-16 15:35:22.847  INFO 49597 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-02-16 15:35:22.847  INFO 49597 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-02-16 15:35:22.853  INFO 49597 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-16 15:35:22.953  INFO 49597 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-02-16 15:35:22.953  INFO 49597 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1601 ms
-2019-02-16 15:35:23.085  INFO 49597 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-02-16 15:35:23.185  INFO 49597 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-02-16 15:35:23.332  INFO 49597 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2019-02-16 15:35:23.375  INFO 49597 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2019-02-16 15:35:23.376  INFO 49597 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-02-16 15:35:23.467  INFO 49597 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-02-16 15:35:23.565  INFO 49597 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2019-02-16 15:35:24.069  INFO 49597 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 15:35:24.353  INFO 49597 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-02-16 15:35:24.624  INFO 49597 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-16 15:35:24.656  WARN 49597 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-02-16 15:35:24.892  INFO 49597 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-02-16 15:35:24.894  INFO 49597 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 4.161 seconds (JVM running for 4.834)
-2019-02-16 15:35:42.302  INFO 49597 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-02-16 15:35:42.303  INFO 49597 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-02-16 15:35:42.313  INFO 49597 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
-2019-02-16 15:35:42.788 ERROR 49597 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "books": Could not parse as expression: "${#strings.isEmpty(message)}}" (template: "books" - line 17, col 68)
-
-org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "${#strings.isEmpty(message)}}" (template: "books" - line 17, col 68)
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.processor.StandardUnlessTagProcessor.isVisible(StandardUnlessTagProcessor.java:57) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.processor.AbstractStandardConditionalVisibilityTagProcessor.doProcess(AbstractStandardConditionalVisibilityTagProcessor.java:61) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370) [spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116) [spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055) [spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) [spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-
-2019-02-16 15:35:42.795 ERROR 49597 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "${#strings.isEmpty(message)}}" (template: "books" - line 17, col 68)] with root cause
-
-org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "${#strings.isEmpty(message)}}" (template: "books" - line 17, col 68)
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.processor.StandardUnlessTagProcessor.isVisible(StandardUnlessTagProcessor.java:57) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.standard.processor.AbstractStandardConditionalVisibilityTagProcessor.doProcess(AbstractStandardConditionalVisibilityTagProcessor.java:61) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.14.jar:9.0.14]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-
-2019-02-16 15:36:17.153  INFO 49597 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-16 15:36:17.154  INFO 49597 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 15:36:17.159  INFO 49597 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-02-16 15:36:17.163  INFO 49597 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-02-16 15:36:20.386  INFO 49602 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 49602 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
-2019-02-16 15:36:20.390  INFO 49602 --- [main] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
-2019-02-16 15:36:21.530  INFO 49602 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-16 15:36:21.605  INFO 49602 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64ms. Found 1 repository interfaces.
-2019-02-16 15:36:22.021  INFO 49602 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e7a3d0e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-16 15:36:22.303  INFO 49602 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-02-16 15:36:22.324  INFO 49602 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-02-16 15:36:22.324  INFO 49602 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-02-16 15:36:22.331  INFO 49602 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-16 15:36:22.433  INFO 49602 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-02-16 15:36:22.433  INFO 49602 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1959 ms
-2019-02-16 15:36:22.559  INFO 49602 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-02-16 15:36:22.652  INFO 49602 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-02-16 15:36:22.816  INFO 49602 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2019-02-16 15:36:22.881  INFO 49602 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2019-02-16 15:36:22.882  INFO 49602 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-02-16 15:36:22.991  INFO 49602 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-02-16 15:36:23.084  INFO 49602 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2019-02-16 15:36:23.538  INFO 49602 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 15:36:23.815  INFO 49602 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-02-16 15:36:24.068  INFO 49602 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-16 15:36:24.101  WARN 49602 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-02-16 15:36:24.304  INFO 49602 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-02-16 15:36:24.307  INFO 49602 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 4.397 seconds (JVM running for 5.125)
-2019-02-16 15:37:43.576  INFO 49602 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-02-16 15:37:43.578  INFO 49602 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 15:37:43.582  INFO 49602 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2019-02-16 15:37:43.587  INFO 49602 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2019-02-16 15:37:45.870  INFO 49605 --- [main] c.y.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on hakutekiMacBook-Pro.local with PID 49605 (/Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo/target/classes started by zhangyubo in /Users/zhangyubo/Desktop/spring-mvc-examples/spring-boot-demo)
-2019-02-16 15:37:45.874  INFO 49605 --- [main] c.y.s.SpringBootDemoApplication          : The following profiles are active: dev
-2019-02-16 15:37:46.532  INFO 49605 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-02-16 15:37:46.578  INFO 49605 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 1 repository interfaces.
-2019-02-16 15:37:46.865  INFO 49605 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$369295a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-16 15:37:47.095  INFO 49605 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-02-16 15:37:47.112  INFO 49605 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-02-16 15:37:47.112  INFO 49605 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
-2019-02-16 15:37:47.117  INFO 49605 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhangyubo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2019-02-16 15:37:47.199  INFO 49605 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-02-16 15:37:47.199  INFO 49605 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1285 ms
-2019-02-16 15:37:47.328  INFO 49605 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-02-16 15:37:47.418  INFO 49605 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-02-16 15:37:47.546  INFO 49605 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2019-02-16 15:37:47.591  INFO 49605 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
-2019-02-16 15:37:47.592  INFO 49605 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2019-02-16 15:37:47.672  INFO 49605 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-02-16 15:37:47.759  INFO 49605 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2019-02-16 15:37:48.248  INFO 49605 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-02-16 15:37:48.566  INFO 49605 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2019-02-16 15:37:48.834  INFO 49605 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-16 15:37:48.869  WARN 49605 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-02-16 15:37:49.086  INFO 49605 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-02-16 15:37:49.088  INFO 49605 --- [main] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 3.745 seconds (JVM running for 4.767)
-2019-02-16 15:37:56.885  INFO 49605 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-02-16 15:37:56.886  INFO 49605 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-02-16 15:37:56.894  INFO 49605 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-02-17 15:40:09.960  INFO 53505 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-17 15:40:09.961  INFO 53505 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-02-17 15:40:10.059  INFO 53505 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-17 15:40:10.181  INFO 53505 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-17 15:40:10.625  INFO 53505 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-17 15:40:10.660  INFO 53505 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-02-17 15:40:10.931  INFO 53505 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-02-17 15:40:11.167  INFO 53505 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-17 15:40:11.201  WARN 53505 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-17 15:40:11.415  INFO 53505 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-17 15:40:11.418  INFO 53505 --- [restartedMain] c.y.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 4.12 seconds (JVM running for 5.093)
+2019-02-17 15:40:27.802  INFO 53505 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-17 15:40:27.802  INFO 53505 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-17 15:40:27.812  INFO 53505 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
