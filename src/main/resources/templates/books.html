@@ -1,10 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
     <title>Books</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <!--<link href="../static/css/bootstrap.min.css" rel="stylesheet" >-->
+    <link th:href="@{/css/bootstrap.min.css}" href="../static/css/bootstrap.min.css" rel="stylesheet" >
+
 </head>
 <body>
-<h1>Books List</h1>
+    <div class="container">
+        <h2 class="page-header">BookList</h2>
+        <div class="alert alert-success alert-dismissable fade in" th:unless ="${#strings.isEmpty(message)}">
+            <a href="#" class = "close" data-dismiss ="alert">&times;</a>
+            <strong>Congratulations!</strong>
+            <span th:text = "${message}"> information saved</span>
+        </div>
+        <p class="text-right"><a href="./addbook.html" th:href="@{/books/addbook}" class="btn btn-primary">Add a Book</a></p>
+        <table class="table table-bordered table-striped table-hover">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Book Name</th>
+                <th>Author</th>
+                <th>Description</th>
+                <th>Status</th>
+                <th>Updata</th>
+            </tr>
+            </thead>
+            <tbody>
+            <!--iterStat:
+                    count: counting, start with 1
+                    index: start with 0
+                    size: how many records in the List
+                    even/odd: even and odd
+                    first/last : first and last
+
+            -->
+            <!--<tr th:each="book,iterStat:${books}" th:class="${iterStat.even}?'bg-info':bg-primary">-->
+            <tr th:each="book,iterStat:${books}" >
+                <td th:text="${iterStat.count}">1</td>
+                <!--<td ><a href="#" th:text="${book.name}" th:href="@{/books/{id}(id=${book.id})}">book</a></td>-->
+                <td ><a href="#" th:text="${book.name}" th:href="@{'/books/'+ ${book.id}}">book</a></td>
+                <td th:text="${book.author}">author</td>
+                <td th:text="${book.description}">description</td>
+                <td th:switch="${book.status}">
+                    <span th:case="0" >want to read</span>
+                    <span th:case="1" >reading</span>
+                    <span th:case="2" >read</span>
+                    <span th:case="*" >status</span>
+                </td>
+                <td><a href="#" th:href="@{/books/{id}/addbook(id=${book.id})}">Update</a></td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script th:src="@{/js/bootstrap.min.js}" src ="../static/js/bootstrap.min.js"></script>
+
 </body>
 </html>

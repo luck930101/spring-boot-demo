@@ -34,6 +34,17 @@
                 <span th:case="2">read</span>
             </p>
 
+            <div class="alert alert-success" th:unless="*{status == 0}">
+                <strong>Nice Job, you are geting started.</strong>
+            </div>
+
+            <div class="alert alert-warning" th:if="*{status == 0}">
+                <strong>:( you did not get started.</strong>
+            </div>
+            <a href="javascript:history.go(-1)" class="btn btn-default">return</a>
+
+
+
         </div>
     </div>
 
